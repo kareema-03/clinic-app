@@ -9,6 +9,35 @@ This phone-based method creates other issues, including delays, high call volume
 This project aims to develop an online queue management system with an initial patient symptom assessment feature to help guide patients to the appropriate service. The system simplifies the booking process, improves patient convenience, reduces staff workload, and enhances clinic service efficiency and modernization in the digital era.
 
 ---
+## 👩🏻‍⚕️ Requirement Gathering
+Conducted interviews with 2 nurses to understand the existing appointment and patient queue management processes and identify operational challenges
+
+The collected information was used to define system functionalities, user roles, and workflows for the proposed system.
+
+---
+## System Analysis & Design
+System analysis and design were conducted to define the system structure, user interactions, data flows, and database relationships.
+### System Architecture
+Illustrates the overall system architecture and interactions between the frontend, backend, and database.
+
+![system-architecture](frontend/public/assets/diagrams/system_architec.png)
+
+### Context Diagram
+Illustrates the system boundary, four user roles, and the information exchanged between users and the system.
+
+![context-diagram](frontend/public/assets/diagrams/context-diagram.png)
+
+### Data Flow Diagram (DFD Level 0)
+Illustrates the main system processes, data flows, and data stores within the system.
+
+![DFD-L0](frontend/public/assets/diagrams/DFD-L0.png)
+
+### Entity Relationship Diagram (ERD)
+Illustrates the database entities and relationships designed to support the system's functionalities.
+
+![er-diagram](frontend/public/assets/diagrams/er-diagram.png)
+
+---
 ## 👥 User Roles & Features
 ### 1. Head Nurse
 - Manage gynecology clinic services
